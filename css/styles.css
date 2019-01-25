@@ -1,0 +1,40 @@
+h1 {
+  text-align: center;
+  margin-top: 5%;
+  margin-bottom: 5%
+}
+
+#submit {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+#labelName {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 20px;
+}
+#labelOne {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 20px;
+}
+
+body {
+  text-align: center;
+  background-color: #BCFFFF;
+  background-image:
+}
+
+p {
+  display: none;
+  font-size: 30px;
+  font-family: garamond;
+  margin-left: 10%;
+  margin-right: 10%;
+}
