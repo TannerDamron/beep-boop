@@ -81,7 +81,7 @@ input {
     inset 0 0 8px  rgba(0,0,0,0.1),
           0 0 16px rgba(0,0,0,0.1);
   padding: 10px;
-  background: linear-gradient(#66B0FD, #91C7FF);
+  background: linear-gradient(#66B0FD, #C1DFFF);
   margin: 0 0 10px 0;
 }
 
@@ -89,7 +89,8 @@ body {
   height: 100%;
   text-align: center;
   background-size: cover;
-  background: #C1DFFF;
+  background-repeat: no-repeat;
+  background-image: url(../img/robotBackground.jpg);
   font-family: calibri;
 }
 
@@ -102,10 +103,10 @@ p {
   font-size: 18px;
   line-height: 0;
   border-radius: 6px;
-  background: linear-gradient(#66B0FD, #91C7FF);
+  background: linear-gradient(#66B0FD, #C1DFFF);
 }
 
-img {
+#img {
   height: 250px;
   display: none;
   margin-top: 5%;

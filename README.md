@@ -28,7 +28,7 @@ A webpage that takes the user inputted number and runs it through a loop then re
 * Open in Atom to see all code used
 
 ### Known Bugs
-* No known bugs
+* Animations only happen the first time submit button is clicked.
 
 ### Languages Used
 * HTML
