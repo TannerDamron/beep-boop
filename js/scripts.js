@@ -31,11 +31,10 @@ $(document).ready(function() {
     var output = beepBoop(userInput);
     var stringOutput = output.join("");
     var outputName = stringOutput.replace(/Dave/g, name)
-    $("#result").hide();
-    $("#result").fadeIn(2000);
+    $("#result").addClass('magictime vanishIn').show();
     $("#result").text(outputName);
-    $('html, body').animate({ scrollTop: 0 }, 'slow');
   });
+
   $("form#formTwo").submit(function(event) {
     event.preventDefault();
     var name = $("input#name").val();
@@ -52,9 +51,7 @@ $(document).ready(function() {
     var reverseArray = output.reverse();
     var reverseOutput = reverseArray.join("");
     var reverseOutputName = reverseOutput.replace(/Dave/g, name)
-    $("#result").hide();
-    $("#result").fadeIn(2000);
+    $("#result").addClass('magictime vanishIn').show();
     $("#result").text(reverseOutputName);
-    $('html, body').animate({ scrollTop: 0 }, 'slow');
   });
 });
