@@ -31,9 +31,9 @@ $(document).ready(function() {
     var output = beepBoop(userInput);
     var stringOutput = output.join("");
     var outputName = stringOutput.replace(/Dave/g, name)
-    $("#result").addClass('magictime vanishIn').show();
     $("#result").text(outputName);
-    $("#img").addClass('magictime vanishIn').show();
+    $("#result").addClass('magictime vanishIn').show();
+    $("#img").show();
     $("#img")[0].scrollIntoView({behavior: 'smooth'});
   });
 
@@ -53,9 +53,9 @@ $(document).ready(function() {
     var reverseArray = output.reverse();
     var reverseOutput = reverseArray.join("");
     var reverseOutputName = reverseOutput.replace(/Dave/g, name)
-    $("#result").addClass('magictime vanishIn').show();
     $("#result").text(reverseOutputName);
-    $("#img").addClass('magictime vanishIn').show();
+    $("#result").addClass('magictime vanishIn').show();
+    $("#img").show();
     $("#img")[0].scrollIntoView({behavior: 'smooth'});
   });
 });

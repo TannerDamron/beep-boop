@@ -88,14 +88,15 @@ input {
 body {
   height: 100%;
   text-align: center;
-  background-size: cover;
   background-repeat: no-repeat;
   background-image: url(../img/robotBackground.jpg);
   font-family: calibri;
 }
 
 p {
-  font-size: 20px;
+  font-size: 30px;
+  font-weight: bold;
+  color: #66B0FD;
 }
 
 .btn-lg {
@@ -109,7 +110,5 @@ p {
 #img {
   height: 250px;
   display: none;
-  margin-top: 5%;
-  margin-left: auto;
-  margin-right: auto;
+  margin-top: 5% auto auto 20px;
 }
