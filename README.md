@@ -40,6 +40,6 @@ A webpage that takes the user inputted number and runs it through a loop then re
 * Magic CSS Library
 
 ### GitHub Pages link
-https://tannerdamron.github.io/beepBoop/
+https://tannerdamron.github.io/Beep-Boop/
 
 Copyright (c) 2019 Tanner Damron.
