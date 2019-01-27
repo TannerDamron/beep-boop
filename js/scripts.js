@@ -33,6 +33,8 @@ $(document).ready(function() {
     var outputName = stringOutput.replace(/Dave/g, name)
     $("#result").addClass('magictime vanishIn').show();
     $("#result").text(outputName);
+    $("img").addClass('magictime foolishIn').show();
+    $("#img")[0].scrollIntoView();
   });
 
   $("form#formTwo").submit(function(event) {
@@ -53,5 +55,7 @@ $(document).ready(function() {
     var reverseOutputName = reverseOutput.replace(/Dave/g, name)
     $("#result").addClass('magictime vanishIn').show();
     $("#result").text(reverseOutputName);
+    $("#img").addClass('magictime foolishIn').show();
+    $("#img")[0].scrollIntoView();
   });
 });

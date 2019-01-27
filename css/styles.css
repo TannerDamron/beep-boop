@@ -94,10 +94,7 @@ body {
 }
 
 p {
-  display: none;
-  font-size: 30px;
-  font-family: garamond;
-  margin-bottom: 20px;
+  font-size: 20px;
 }
 
 .btn-lg {
@@ -106,4 +103,12 @@ p {
   line-height: 0;
   border-radius: 6px;
   background: linear-gradient(#66B0FD, #91C7FF);
+}
+
+img {
+  height: 250px;
+  display: none;
+  margin-top: 5%;
+  margin-left: auto;
+  margin-right: auto;
 }
