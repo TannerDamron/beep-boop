@@ -30,14 +30,16 @@ A webpage that takes the user inputted number and runs it through a loop then re
 ### Known Bugs
 * Animations only happen the first time submit button is clicked.
 
-### Languages Used
+### Languages/Libraries Used
 * HTML
 * CSS
 * Bootstrap
 * JavaScript
 * jQuery
+* Hover CSS Library
+* Magic CSS Library
 
 ### GitHub Pages link
-https://tannerdamron.github.io/beep-boop/
+https://tannerdamron.github.io/beepBoop/
 
 Copyright (c) 2019 Tanner Damron.
