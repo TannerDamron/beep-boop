@@ -19,7 +19,13 @@ $(document).ready(function(){
   $("form#formOne").submit(function(event){
     event.preventDefault();
     var name = $("input#name").val();
+    if (!name){
+      alert("Please enter your name");
+    };
     var userInput = parseInt($("#inputNumber").val());
+    if (!userInput){
+      alert("Please enter a number");
+    };
     var output = beepBoop(userInput);
     var stringOutput = output.join("");
     var outputName = stringOutput.replace(/Dave/g, name)
