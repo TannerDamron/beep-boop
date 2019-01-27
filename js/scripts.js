@@ -34,6 +34,7 @@ $(document).ready(function() {
     $("#result").text(outputName);
     $("#result").addClass('magictime vanishIn').show();
     $("#img").show();
+    $("#return").show();
     $("#img")[0].scrollIntoView({behavior: 'smooth'});
   });
 
@@ -56,6 +57,10 @@ $(document).ready(function() {
     $("#result").text(reverseOutputName);
     $("#result").addClass('magictime vanishIn').show();
     $("#img").show();
+    $("#return").show();
     $("#img")[0].scrollIntoView({behavior: 'smooth'});
+  });
+  $("form#toTop").submit(function() {
+    $('html, body').animate({ scrollTop: 0 }, 'fast');
   });
 });

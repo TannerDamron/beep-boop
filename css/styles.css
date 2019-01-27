@@ -112,3 +112,8 @@ p {
   display: none;
   margin-top: 5% auto auto 20px;
 }
+
+#return {
+  outline: none;
+  display: none;
+}
