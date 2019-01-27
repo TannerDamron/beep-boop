@@ -1,4 +1,4 @@
-var beepBoop = function(userInput){
+var beepBoop = function(userInput) {
   var results = [];
   for (var i=0; i <= userInput; i++) {
     var inputString = (i).toString();
@@ -15,7 +15,7 @@ var beepBoop = function(userInput){
   return results
 }
 
-$(document).ready(function(){
+$(document).ready(function() {
   $("form#formOne").submit(function(event){
     event.preventDefault();
     var name = $("input#name").val();
@@ -25,6 +25,8 @@ $(document).ready(function(){
     var userInput = parseInt($("#inputNumber").val());
     if (!userInput){
       alert("Please enter a number");
+    } else {
+      $(this).addClass('magictime foolishIn');
     };
     var output = beepBoop(userInput);
     var stringOutput = output.join("");
@@ -34,10 +36,18 @@ $(document).ready(function(){
     $("#result").text(outputName);
     $('html, body').animate({ scrollTop: 0 }, 'slow');
   });
-  $("form#formTwo").submit(function(event){
+  $("form#formTwo").submit(function(event) {
     event.preventDefault();
     var name = $("input#name").val();
+    if (!name){
+      alert("Please enter your name");
+    };
     var userInput = parseInt($("#inputNumber").val());
+    if (!userInput){
+      alert("Please enter a number");
+    } else {
+      $(this).addClass('magictime foolishIn');
+    };
     var output = beepBoop(userInput);
     var reverseArray = output.reverse();
     var reverseOutput = reverseArray.join("");
